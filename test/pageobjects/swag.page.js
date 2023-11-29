@@ -3,9 +3,7 @@ import { browser } from '@wdio/globals'
 
 export default class Page {
     
-    @param path 
-    
-    open (path) {
+    open () {
         return browser.url(`https://www.saucedemo.com`)
     }
 }

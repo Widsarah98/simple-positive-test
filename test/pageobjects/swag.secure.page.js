@@ -1,5 +1,5 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
+import Page from './swag.page.js';
 
 
 class SecurePage extends Page {

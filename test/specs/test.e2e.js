@@ -1,6 +1,6 @@
-import { expect } from '@wdio/globals'
-import LoginPage from '../pageobjects/swag.login.page.js'
-import SecurePage from '../pageobjects/swag.secure.page.js'
+import { expect } from '@wdio/globals';
+import LoginPage from '../pageobjects/swag.login.page.js';
+import SecurePage from '../pageobjects/swag.secure.page.js';
 
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {
