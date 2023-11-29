@@ -2,9 +2,7 @@ import { $ } from '@wdio/globals'
 import Page from './page.js';
 
 class LoginPage extends Page {
-    /**
-     * define selectors using getter methods
-     */
+    
     get insertUsername () {
         return $('#user-name');
     }
@@ -23,6 +21,7 @@ class LoginPage extends Page {
         await this.insertPassword.setValue(password);
         await this.btnLogin.click();
     }
+
 
     open () {
         return super.open('');
